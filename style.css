@@ -1,0 +1,111 @@
+body {
+    background-color: #f699df;
+  }
+  .navigation-bar {
+    width: 75%;  
+    height: 80px; 
+    padding: 8px;
+    background-color: #ffffff; 
+    list-style-type: none; 
+    text-align: center;
+  }
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 15px;  
+  }
+  .navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    height: 150px;        
+    line-height: 150px;  
+    color: black;  
+    text-decoration: none;
+  }
+  hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navigation-title {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .heroImg {
+    padding: 20px;
+    line-height: 1.8;
+    padding-bottom: 100px;
+  }
+  img {
+      float: right;
+      padding: 8px;
+      width: 45%;
+      height: 45%;
+  }
+  .heroHead {
+    text-align: left;
+  }
+  .content {
+    width: 750px;
+    margin: 0 auto;
+  }
+  #popup-container {
+    position: absolute;
+    background-color: #a4e7f0;
+    left: 25%;
+    top: 10%;
+    z-index: 11111;
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px #ccc;
+    display: none;
+  }
+  #close-btn {
+    float: left;
+    cursor: pointer;
+  }
+  .resumeButton {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .mySkills {
+    background-color: #83ac5d;
+    color:#F2F5EA;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    line-height: 30px;
+  }
+  div {
+    width: 18%;
+    padding: 0px;
+  }
+  .footerNav {
+    margin: auto; 
+    display: inline-block;
+    list-style-type: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .footerList {
+    display: inline-block;
+  }
+  .footerList a {
+    display: inline-block;
+    margin-left: 250px;     
+    color: black;  
+    text-decoration: none;
+  }
